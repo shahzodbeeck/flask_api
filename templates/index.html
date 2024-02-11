@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    <link rel="stylesheet" href="../static/css/style.css"/>
+    <title>404 - Shahzod Omonboyev</title>
+    <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon"/>
+</head>
+
+<body>
+<!-- Header -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav_logo">Shahzod Omonboyev</a>
+
+        <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list grid">
+                <li class="nav_item">
+                    <a href="{{ url_for('index') }}#home" class="nav_link">
+                        <i class="uil uil-estate nav_icon"></i> Bosh Sahifa
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="{{ url_for('index') }}#about" class="nav_link">
+                        <i class="uil uil-user nav_icon"></i> Haqimda
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="{{ url_for('index') }}#skills" class="nav_link">
+                        <i class="uil uil-file-alt nav_icon"></i> Ko'nikmalar
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="{{ url_for('index') }}qualification" class="nav_link">
+                        <i class="uil uil-graduation-cap nav_icon"></i> Malakalar
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="{{ url_for('index') }}#projects" class="nav_link">
+                        <i class="uil uil-scenery nav_icon"></i> Loyihalar
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="{{ url_for('index') }}#contact" class="nav_link">
+                        <i class="uil uil-message nav-icon nav_icon"></i> Men bilan bog'lanish
+                    </a>
+                </li>
+            </ul>
+            <i class="uil uil-times nav_close" id="nav-close"></i>
+        </div>
+
+        <div class="nav_btns">
+            <!-- Change Theme -->
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="uil uil-apps"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main -->
+<main class="main">
+    <section class="home section" id="home">
+        <div class="container">
+            <h1>:(</h1>
+            <br>
+            <h2>
+                 <span>404</span>  xatolik yuz berdi! Sahifa topilmadi, URL manzilini tekshiring va qaytadan urining.
+            </h2>
+            <br><br>
+            <h3>
+                <a class="nav_link" href="{{ url_for('index') }}">Bosh sahifaga qaytish</a><br><a class="nav_link"
+                                                                                                 href="javascript:history.back()">Orqaga</a>
+            </h3>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer_bg">
+        <div class="footer_container container grid">
+            <div>
+                <h1 class="footer_title">Shahzod Omonboyev</h1>
+                <span class="footer_subtitle">Full-Stack Developer</span>
+            </div>
+
+            <ul class="footer_links">
+                <li>
+                    <a href="{{ url_for('index') }}#about" class="footer_link">Haqimda</a>
+                </li>
+                <li>
+                    <a href="{{ url_for('index') }}#projects" class="footer_link">Loyihalar</a>
+                </li>
+                <li>
+                    <a href="{{ url_for('index') }}#contact" class="footer_link">Men bilan bog'lanish</a>
+                </li>
+            </ul>
+
+       <div class="footer_socials">
+                <a href="https://telegram.me/shahzodbeeck" target="_blank" class="footer_social">
+                    <i class="uil uil-telegram"></i>
+                </a>
+                <a href="https://github.com/Itmaktabi1/" target="_blank" class="footer_social">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="https://www.instagram.com/shahzodbeeck/" target="_blank" class="footer_social">
+                    <i class="uil uil-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <p class="footer_copy">&#169; Shahzod Omonboyev. Barcha huquqlar himoyalangan</p>
+    </div>
+</footer>
+
+<script src="../static/js/404-error.js"></script>
+</body>
+
+</html>
